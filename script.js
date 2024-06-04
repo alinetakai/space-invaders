@@ -255,8 +255,8 @@ const gameOver = () => {
   const perdeu = document.createElement("div");
   perdeu.style.position = "absolute";
   perdeu.innerHTML = "Fim de Jogo";
-  perdeu.style.backgroundColor = "white";
-  perdeu.style.color = "black";
+  perdeu.style.backgroundColor = "black";
+  perdeu.style.color = "red";
   perdeu.style.left = "50%";
   perdeu.style.top = "50%";
   perdeu.style.padding = "10px 20px";
