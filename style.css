@@ -47,7 +47,8 @@
 
 #iniciar {
     position: absolute;
-    color: black;
+    color: cyan;
+    background-color: black;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -55,6 +56,10 @@
     border-radius: 5px;
     padding: 10px 20px;
     cursor: pointer;
+}
+
+#vida, #pontos{
+    color: yellow;
 }
 
 @keyframes animarCenario {
